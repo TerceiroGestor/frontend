@@ -21,7 +21,7 @@ export default function Register() {
   return (
     <Div>
       <MenuDiv>
-          <MenuRegister />
+        <MenuRegister />
       </MenuDiv>
       <ContentDiv>
         <HeaderRegister />

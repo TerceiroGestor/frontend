@@ -6,9 +6,9 @@ interface ButtonsProps {
 export const Buttons = styled.div<ButtonsProps>`
   display: flex;
   align-items: center;
-  justify-content: ${(props) => props.isActive ? 'space-between' : 'end'};
+  justify-content: ${(props) => (props.isActive ? "space-between" : "end")};
   margin-top: 50px;
-`
+`;
 
 export const ClearButton = styled.button`
   background-color: var(--secundary-color);

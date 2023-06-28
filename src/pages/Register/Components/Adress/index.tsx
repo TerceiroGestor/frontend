@@ -9,15 +9,15 @@ interface Adress {
 }
 
 export default function Adress() {
- const [cep, setCep] = useState("");
+  const [cep, setCep] = useState("");
   const [dataAdress, setDataAdress] = useState<Adress | null>(null);
   const requestAdress = async () => {
-    console.log(cep)
+    console.log(cep);
     const URL = `https://brasilapi.com.br/api/cep/v2/${cep}`;
 
     const resquest = await fetch(URL, {
-      method: 'GET',
-      mode: 'cors',
+      method: "GET",
+      mode: "cors",
     });
 
     const response = await resquest.json();
@@ -67,7 +67,11 @@ export default function Adress() {
 
           <Form.Group as={Col} controlId="formGridEmail">
             <Form.Label>Bairro</Form.Label>
-            <Form.Control size="lg" type="text" value={dataAdress?.neighborhood} />
+            <Form.Control
+              size="lg"
+              type="text"
+              value={dataAdress?.neighborhood}
+            />
           </Form.Group>
         </Row>
 

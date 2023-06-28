@@ -6,4 +6,4 @@ type globalContext = {
 
 const MainContext = createContext({} as globalContext);
 
-export {MainContext};
+export { MainContext };

@@ -3,7 +3,7 @@ import { Circle, Link, Nav } from "./style";
 import { Div } from "./style";
 
 export default function MenuRegister() {
-  return(
+  return (
     <Nav>
       <img src="../../public/images/background.png" alt="Terceiro Gestor" />
       <Div>
@@ -27,5 +27,5 @@ export default function MenuRegister() {
         <Link href="/register/comments">Oberservações</Link>
       </Div>
     </Nav>
-  )
+  );
 }

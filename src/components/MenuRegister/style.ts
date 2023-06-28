@@ -5,7 +5,7 @@ export const Circle = styled.div`
   height: 62px;
   border-radius: 50%;
   background-color: white;
-`
+`;
 
 export const Nav = styled.div`
   background-color: var(--primary-color);
@@ -19,17 +19,17 @@ export const Nav = styled.div`
     height: 50px;
     margin: 30px auto 350px;
   }
-`
+`;
 
 export const Div = styled.div`
   display: flex;
   align-items: center;
   margin-left: 40px;
   margin-top: 20px;
-`
+`;
 
 export const Link = styled.a`
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25.2941px;
@@ -39,8 +39,8 @@ export const Link = styled.a`
   text-decoration: none;
   color: black;
   opacity: 0.6;
-    &:hover {
+  &:hover {
     color: black;
     opacity: 1;
   }
-`
+`;

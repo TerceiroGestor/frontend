@@ -8,7 +8,8 @@ export const Circle = styled.div<CircleProps>`
   width: 61px;
   height: 61px;
   border-radius: 50%;
-  background-color: ${props => props.isActive ? 'var(--primary-color)' : 'var(--secundary-color)'};
+  background-color: ${(props) =>
+    props.isActive ? "var(--primary-color)" : "var(--secundary-color)"};
 `;
 
 export const Line = styled.div`
@@ -17,14 +18,14 @@ export const Line = styled.div`
   border-radius: 40px;
   margin-bottom: 80px;
   background-color: var(--primary-color);
-`
+`;
 export const Div = styled(Container)`
   display: flex;
   flex-direction: row !important;
   align-items: center;
   margin-top: -400px;
   justify-content: center;
-`
+`;
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -34,8 +35,7 @@ export const Content = styled.div`
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
-  p{
+  p {
     margin-top: 20px;
   }
-
-`
+`;

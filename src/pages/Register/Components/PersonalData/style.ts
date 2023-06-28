@@ -5,4 +5,4 @@ export const Circle = styled.div`
   height: 82px;
   border-radius: 50%;
   background-color: white;
-`
+`;
